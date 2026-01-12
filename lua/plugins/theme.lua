@@ -1,20 +1,18 @@
 return {
   {
-    "Mofiqul/vscode.nvim",
+    "iagorrr/noctis-high-contrast.nvim",
     lazy = false,
     priority = 1000,
     config = function()
-      require("vscode").setup({
-        transparent = true,
-        italic_comments = true,
-      })
+      -- This theme is very high contrast by default
+      vim.cmd("colorscheme noctishc")
     end,
   },
 
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "vscode",
+      colorscheme = "noctishc",
     },
   },
 }
