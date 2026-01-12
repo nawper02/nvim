@@ -1,0 +1,18 @@
+return {
+  "folke/snacks.nvim",
+  opts = {
+    dashboard = {
+      preset = {
+        -- You can use any ASCII art here. Use [[ ]] for multi-line strings.
+        header = [[
+    .       .
+    |\_---_/|
+   /   o_o   \
+  |    U      |
+   \  ._.  /
+    `-___-'
+        ]],
+      },
+    },
+  },
+}
